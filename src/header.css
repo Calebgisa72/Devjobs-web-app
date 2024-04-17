@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-color);
+    font-family: Kumbh Sans,Arial, Helvetica, sans-serif;
+}
+
+.back {
+    background-image: url('./starter-code/assets/desktop/bg-pattern-header.svg');
+    background-size: cover;
+    background-position: auto 100%;
+    background-repeat: no-repeat;
+    height: 52px;
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.headd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Htitle{
+    font-family: Kumbh Sans,Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 700;
+}
+.themeIcon{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+}
+.side{
+    width: 35px;
+    height: 20px; 
+}
+.Shead{
+    background-color: var(--third-color);
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 6px;
+}
