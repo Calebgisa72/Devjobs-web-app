@@ -6,8 +6,8 @@ body{
 }
 
 .back {
-    background-image: url('./starter-code/assets/desktop/bg-pattern-header.svg');
-    background-size: cover;
+    background-image: url('../starter-code/assets/desktop/bg-pattern-header.svg');
+    background-size: 100% 125px;
     background-position: auto 100%;
     background-repeat: no-repeat;
     height: 52px;
@@ -15,6 +15,7 @@ body{
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .headd{
     display: flex;
     justify-content: space-between;
@@ -22,7 +23,7 @@ body{
 }
 .Htitle{
     font-family: Kumbh Sans,Arial, Helvetica, sans-serif;
-    color: var(--primary-color);
+    color: #F2F2F2;
     font-size: 22px;
     font-weight: 700;
 }
@@ -38,10 +39,17 @@ body{
 .side{
     width: 35px;
     height: 20px; 
+    cursor: pointer;
 }
 .Shead{
     background-color: var(--third-color);
     margin-top: 30px;
     width: 100%;
     border-radius: 6px;
+}
+
+@media(max-width: 600px){
+    .back{
+        background-size: 100% 300px;
+    }
 }

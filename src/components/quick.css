@@ -1,0 +1,233 @@
+.Qall{
+    display: flex;
+    background-color: var(--third-color);
+    gap: 1px;
+    border-radius: 6px;
+}
+.seachIn{
+    display: flex;
+    height: 60px;
+    flex: 1.2;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 15px;
+}
+.filterIn,.Smobile{
+    display: flex;
+    height: 60px;
+    flex: 0.95;
+    border-left: 1px solid #979797;
+    border-right: 1px solid #979797;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 15px;
+}
+.checkIn{
+    display: flex;
+    height: 60px;
+    flex: 0.95; 
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+.cheeck{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Sicon{
+    width: 20px;
+}
+.Licon,.Micon{
+    width: 15px;
+}
+.searchInput{
+    display: inline-block;
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 15px;
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    width: 100%;
+}
+.searchInputL,.searchInputM{
+    display: inline-block;
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 15px;
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    width: 100%;
+}
+.searchInput::placeholder{
+    font-size: 14px;
+}
+.searchInputL::placeholder{
+    font-size: 14px;
+}
+.Cinput,.Cminput{
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(243, 243, 243);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.Qlable,.Qmlable{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.filterI{
+    display: none;
+}
+.searchBut{
+    display: none;
+}
+.chee{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.not{
+    display: none;
+}
+.mBut{
+    padding: 20px;
+    padding-top: 0px;
+}
+.mmbut{
+    background-color: #5964E0;
+    padding-left: 26px;
+    padding-right: 28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    height: 48px;
+}
+@media(max-width: 1050px){
+    .seachIn{
+        width: 100px;
+    }
+    .filterIn{
+        width: 80px;
+    }
+    .checkIn{
+        flex: 1.2;
+    }
+}
+@media(max-width: 900px){
+    .seachIn{
+        width: 60px;
+    }
+    .filterIn{
+        width: 80px;
+    }
+    .checkIn{
+        flex: 1;
+    }
+    .searchInput::placeholder{
+        font-size: 11px;
+    }
+    .searchInputL::placeholder{
+        font-size: 11px;
+    }
+    .Qlable{
+        font-size: 10px;
+    }
+}
+.mobileSearch{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobb{
+    background-color: var(--third-color);
+    width: 85%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Smobile{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #979797; 
+}
+
+
+@media(max-width: 600px){
+    .seachIn{
+        width: 100px;
+    }
+    .filterIn{
+        width: 5px;
+        padding-left: 8px; 
+        padding-right: 0px;
+        flex: 0.2;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    .searchInput::placeholder{
+        font-size: 13px;
+    }
+    .checkIn{
+        width: 5px;
+        padding-left: 5px; 
+        padding-right: 15px;
+        flex: 0.4;
+        align-items: center;
+        justify-content: center;
+    }
+    .Licon{
+        display: none;
+    }
+    .Sicon{
+        display: none;
+    }
+    .searchInputL{
+        display: none;
+    }
+    .filterI{
+        display: block;
+    }
+    .seaar{
+        width: 35px;
+    }
+    .searchBut{
+        display: block;
+        border: none;
+        background-color: transparent;
+        align-self: center;
+        justify-self: center;
+    }
+    .fBut{
+        display: none;
+    }
+    .Cinput{
+        display: none;
+    }
+    .Qlable{
+        display: none;
+    }
+}
+

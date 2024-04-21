@@ -1,0 +1,40 @@
+.homme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.heeder{
+    width: 99%;
+}
+.allItems{
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 79%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 29px;
+    row-gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.load{
+    margin-bottom: 60px;
+}
+.loadBut{
+    margin-bottom: 70px;
+}
+
+@media(max-width: 1000px){
+    .allItems{
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media(max-width: 670px){
+    .allItems{
+        grid-template-columns: 300px;
+    }
+}

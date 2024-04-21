@@ -10,3 +10,6 @@
     font-size: 14px;
     font-weight: 600;
 }
+.but:hover{
+    background-color: #939BF4;
+}

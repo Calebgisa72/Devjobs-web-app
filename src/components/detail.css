@@ -1,0 +1,16 @@
+.ttt{
+    color: var(--secondary-color);
+    font-size: 19px;
+}
+.ddd{
+    color: var(--fifth-color);
+    font-size: 15px;
+    line-height: 22px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--fifth-color);
+    font-size: 15px;
+}

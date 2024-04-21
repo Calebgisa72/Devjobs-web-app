@@ -1,9 +1,22 @@
-:root{
+:root {
   --primary-color: #F2F2F2;
-  --secondary-color: #19202D;
+  --secondary-color: #121721;
   --third-color: #FFFFFF;
-  font-family:  Kumbh Sans,Arial, Helvetica, sans-serif;
+  --fourth-color: #19202D;
+  font-family: Kumbh Sans, Arial, Helvetica, sans-serif;
+  --fifth-color: #6E8098;
 }
+
+.dark-theme {
+  --primary-color: #121721;
+  --secondary-color: #F2F2F2;
+  --third-color: #19202D;
+  --fourth-color: #FFFFFF;
+  font-family: Kumbh Sans, Arial, Helvetica, sans-serif;
+}
+
+/* Add your light and dark mode styles here */
+
 button{
   cursor: pointer;
 }

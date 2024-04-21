@@ -1,0 +1,57 @@
+.Hcard{
+    position: relative;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background-color: var(--third-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cardDet{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Himg{
+    width: 50px;
+    position: absolute;
+    top: -25px;
+}
+.smallDetails{
+    display: flex;
+    gap: 8px;
+    color: #6E8098;
+    align-items: center;
+}
+.Htime{
+    font-size: 13px;
+}
+.Ctype{
+    font-size: 13px;
+}
+.Ptitle{
+    font-size: 17px;
+    font-weight: 750;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.Ptitle:hover{
+    color: #6E8098;
+}
+.comName{
+    display: flex;
+    gap: 8px;
+    color: #6E8098;
+    align-items: center;
+    font-size: 13px;
+}
+.Hcountry{
+    color: #5964E0;
+    font-size: 13px;
+    font-weight: 700;
+}
+.titleLink {
+    text-decoration: none;
+}
